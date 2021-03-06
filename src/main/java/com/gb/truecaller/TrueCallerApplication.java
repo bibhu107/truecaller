@@ -17,6 +17,7 @@ public class TrueCallerApplication {
         account1.register(UserCategory.FREE,"u1","pwd",
                 "u1@email.com","6826999256", "91", "u1");
 
+
         // Test case 2: Add contacts to user
         account1.addConcat(new User("9140107431","mahadev"));
         account1.addConcat(new User("8558101117","govind", "hs"));
@@ -31,6 +32,7 @@ public class TrueCallerApplication {
         account1.addConcat(new User("9495010564","Bhrama"));
         account1.addConcat(new User("9844296241","Saraswathi"));
         account1.addConcat(new User("7917949575","a.Veena"));
+        account1.addConcat(new User("9456555599","B.pala"));
 
         //Test case 3: check added contacts count
         System.out.println(account1.getContacts().size());
